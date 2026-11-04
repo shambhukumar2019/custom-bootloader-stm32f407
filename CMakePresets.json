@@ -1,0 +1,56 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "default",
+            "displayName": "default preset",
+            "description": "default build target",
+            "hidden": true,
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/config/arm-none-eabi.cmake"
+            }
+        },
+        {
+            "name": "debug",
+            "displayName": "debug preset",
+            "description": "build target for debug",
+            "inherits": "default",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_C_FLAGS_DEBUG": "-g3 -O0"
+            }
+        },
+        {
+            "name": "release",
+            "displayName": "release preset",
+            "description": "build target for release",
+            "inherits": "default",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_C_FLAGS_RELEASE": "-Os"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "debug",
+            "configurePreset": "debug",
+            "description": "build target for debug",
+            "targets": [
+                "all"
+            ]
+        },
+        {
+            "name": "release",
+            "configurePreset": "release",
+            "description": "build target for release",
+            "targets": [
+                "all"
+            ]
+        }
+    ]
+}
+

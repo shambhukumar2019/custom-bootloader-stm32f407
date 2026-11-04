@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release",
+  "command": "/opt/arm-tools/bin/arm-none-eabi-gcc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/cmsis -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/inc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/bsp -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/app -O3 -DNDEBUG -Wall -Wextra -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -o firmware/CMakeFiles/blink.elf.dir/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s.obj -c /home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s",
+  "file": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s",
+  "output": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/firmware/CMakeFiles/blink.elf.dir/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s.obj"
+},
+{
+  "directory": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release",
+  "command": "/opt/arm-tools/bin/arm-none-eabi-gcc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/cmsis -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/inc -Os -Wall -Wextra -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -o firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/system_stm32f4xx.c.obj -c /home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/system_stm32f4xx.c",
+  "file": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/system_stm32f4xx.c",
+  "output": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/system_stm32f4xx.c.obj"
+},
+{
+  "directory": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release",
+  "command": "/opt/arm-tools/bin/arm-none-eabi-gcc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/cmsis -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/inc -Os -Wall -Wextra -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -o firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/syscalls.c.obj -c /home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/syscalls.c",
+  "file": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/syscalls.c",
+  "output": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/syscalls.c.obj"
+},
+{
+  "directory": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release",
+  "command": "/opt/arm-tools/bin/arm-none-eabi-gcc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/cmsis -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/inc -Os -Wall -Wextra -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -o firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/sysmem.c.obj -c /home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/sysmem.c",
+  "file": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/vendor/platform/stm32f4xx/src/sysmem.c",
+  "output": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/sysmem.c.obj"
+},
+{
+  "directory": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release",
+  "command": "/opt/arm-tools/bin/arm-none-eabi-gcc -I/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/bsp -Os -o firmware/bsp/CMakeFiles/bsp.dir/stm32disc1.c.obj -c /home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/bsp/stm32disc1.c",
+  "file": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/firmware/bsp/stm32disc1.c",
+  "output": "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/firmware/bsp/CMakeFiles/bsp.dir/stm32disc1.c.obj"
+}
+]

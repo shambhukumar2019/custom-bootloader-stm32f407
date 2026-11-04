@@ -1,0 +1,1692 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:14 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc"
+      - "/usr/local/sbin/arm-none-eabi-gcc"
+      - "/usr/local/bin/arm-none-eabi-gcc"
+      - "/usr/sbin/arm-none-eabi-gcc"
+      - "/usr/bin/arm-none-eabi-gcc"
+      - "/sbin/arm-none-eabi-gcc"
+      - "/bin/arm-none-eabi-gcc"
+      - "/usr/games/arm-none-eabi-gcc"
+      - "/usr/local/games/arm-none-eabi-gcc"
+      - "/snap/bin/arm-none-eabi-gcc"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:15 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc"
+      - "/usr/local/sbin/arm-none-eabi-gcc"
+      - "/usr/local/bin/arm-none-eabi-gcc"
+      - "/usr/sbin/arm-none-eabi-gcc"
+      - "/usr/bin/arm-none-eabi-gcc"
+      - "/sbin/arm-none-eabi-gcc"
+      - "/bin/arm-none-eabi-gcc"
+      - "/usr/games/arm-none-eabi-gcc"
+      - "/usr/local/games/arm-none-eabi-gcc"
+      - "/snap/bin/arm-none-eabi-gcc"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:16 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-g++"
+      - "/usr/local/sbin/arm-none-eabi-g++"
+      - "/usr/local/bin/arm-none-eabi-g++"
+      - "/usr/sbin/arm-none-eabi-g++"
+      - "/usr/bin/arm-none-eabi-g++"
+      - "/sbin/arm-none-eabi-g++"
+      - "/bin/arm-none-eabi-g++"
+      - "/usr/games/arm-none-eabi-g++"
+      - "/usr/local/games/arm-none-eabi-g++"
+      - "/snap/bin/arm-none-eabi-g++"
+    found: "/opt/arm-tools/bin/arm-none-eabi-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:17 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-objcopy"
+      - "/usr/local/sbin/arm-none-eabi-objcopy"
+      - "/usr/local/bin/arm-none-eabi-objcopy"
+      - "/usr/sbin/arm-none-eabi-objcopy"
+      - "/usr/bin/arm-none-eabi-objcopy"
+      - "/sbin/arm-none-eabi-objcopy"
+      - "/bin/arm-none-eabi-objcopy"
+      - "/usr/games/arm-none-eabi-objcopy"
+      - "/usr/local/games/arm-none-eabi-objcopy"
+      - "/snap/bin/arm-none-eabi-objcopy"
+    found: "/opt/arm-tools/bin/arm-none-eabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-objdump"
+      - "/usr/local/sbin/arm-none-eabi-objdump"
+      - "/usr/local/bin/arm-none-eabi-objdump"
+      - "/usr/sbin/arm-none-eabi-objdump"
+      - "/usr/bin/arm-none-eabi-objdump"
+      - "/sbin/arm-none-eabi-objdump"
+      - "/bin/arm-none-eabi-objdump"
+      - "/usr/games/arm-none-eabi-objdump"
+      - "/usr/local/games/arm-none-eabi-objdump"
+      - "/snap/bin/arm-none-eabi-objdump"
+    found: "/opt/arm-tools/bin/arm-none-eabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "config/arm-none-eabi.cmake:19 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_SIZE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-size"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/arm-none-eabi-size"
+      - "/usr/local/sbin/arm-none-eabi-size"
+      - "/usr/local/bin/arm-none-eabi-size"
+      - "/usr/sbin/arm-none-eabi-size"
+      - "/usr/bin/arm-none-eabi-size"
+      - "/sbin/arm-none-eabi-size"
+      - "/bin/arm-none-eabi-size"
+      - "/usr/games/arm-none-eabi-size"
+      - "/usr/local/games/arm-none-eabi-size"
+      - "/snap/bin/arm-none-eabi-size"
+    found: "/opt/arm-tools/bin/arm-none-eabi-size"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Generic -  - ARM
+      The host system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/arm-tools/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/home/shambhu/.local/bin/ninja-build"
+      - "/home/shambhu/.local/bin/ninja"
+      - "/home/shambhu/.local/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/arm-tools/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/arm-tools/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-dlltool"
+      - "/home/shambhu/.local/bin/arm-none-eabi-dlltool"
+      - "/usr/local/sbin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/usr/sbin/arm-none-eabi-dlltool"
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/sbin/arm-none-eabi-dlltool"
+      - "/bin/arm-none-eabi-dlltool"
+      - "/usr/games/arm-none-eabi-dlltool"
+      - "/usr/local/games/arm-none-eabi-dlltool"
+      - "/snap/bin/arm-none-eabi-dlltool"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-dlltool"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-dlltool"
+      - "/opt/arm-tools/bin/dlltool"
+      - "/home/shambhu/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/opt/st/stm32cubeide_2.0.0/dlltool"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    found: "/opt/arm-tools/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-tapi"
+      - "/home/shambhu/.local/bin/arm-none-eabi-tapi"
+      - "/usr/local/sbin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/usr/sbin/arm-none-eabi-tapi"
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/sbin/arm-none-eabi-tapi"
+      - "/bin/arm-none-eabi-tapi"
+      - "/usr/games/arm-none-eabi-tapi"
+      - "/usr/local/games/arm-none-eabi-tapi"
+      - "/snap/bin/arm-none-eabi-tapi"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-tapi"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-tapi"
+      - "/opt/arm-tools/bin/tapi"
+      - "/home/shambhu/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/opt/st/stm32cubeide_2.0.0/tapi"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-15.2"
+      - "arm-none-eabi-gcc-ar-15"
+      - "arm-none-eabi-gcc-ar15"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/sbin/arm-none-eabi-gcc-ar-15.2"
+      - "/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ar-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15.2"
+      - "/snap/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ar-15.2"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15.2"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ar-15.2"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ar-15"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-15"
+      - "/usr/bin/arm-none-eabi-gcc-ar-15"
+      - "/sbin/arm-none-eabi-gcc-ar-15"
+      - "/bin/arm-none-eabi-gcc-ar-15"
+      - "/usr/games/arm-none-eabi-gcc-ar-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-15"
+      - "/snap/bin/arm-none-eabi-gcc-ar-15"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ar-15"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ar-15"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ar15"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/sbin/arm-none-eabi-gcc-ar15"
+      - "/usr/bin/arm-none-eabi-gcc-ar15"
+      - "/sbin/arm-none-eabi-gcc-ar15"
+      - "/bin/arm-none-eabi-gcc-ar15"
+      - "/usr/games/arm-none-eabi-gcc-ar15"
+      - "/usr/local/games/arm-none-eabi-gcc-ar15"
+      - "/snap/bin/arm-none-eabi-gcc-ar15"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ar15"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar15"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ar15"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-15.2"
+      - "arm-none-eabi-gcc-ranlib-15"
+      - "arm-none-eabi-gcc-ranlib15"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/sbin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15.2"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ranlib-15.2"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15.2"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ranlib-15.2"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/sbin/arm-none-eabi-gcc-ranlib-15"
+      - "/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-15"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ranlib-15"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ranlib-15"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib15"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib15"
+      - "/sbin/arm-none-eabi-gcc-ranlib15"
+      - "/bin/arm-none-eabi-gcc-ranlib15"
+      - "/usr/games/arm-none-eabi-gcc-ranlib15"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib15"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib15"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ranlib15"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib15"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ranlib15"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar-"
+      - "arm-none-eabi-gcc-ar"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ar-"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/games/arm-none-eabi-gcc-ar-"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-"
+      - "/snap/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ar-"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ar-"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ar-"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/sbin/arm-none-eabi-gcc-ar-"
+      - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/sbin/arm-none-eabi-gcc-ar-"
+      - "/bin/arm-none-eabi-gcc-ar-"
+      - "/usr/games/arm-none-eabi-gcc-ar-"
+      - "/usr/local/games/arm-none-eabi-gcc-ar-"
+      - "/snap/bin/arm-none-eabi-gcc-ar-"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ar-"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ar-"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib-"
+      - "arm-none-eabi-gcc-ranlib"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/arm-tools/bin/"
+      - "/home/shambhu/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/st/stm32cubeide_2.0.0/"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/"
+    searched_directories:
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ranlib-"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ranlib-"
+      - "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/shambhu/.local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/sbin/arm-none-eabi-gcc-ranlib-"
+      - "/bin/arm-none-eabi-gcc-ranlib-"
+      - "/usr/games/arm-none-eabi-gcc-ranlib-"
+      - "/usr/local/games/arm-none-eabi-gcc-ranlib-"
+      - "/snap/bin/arm-none-eabi-gcc-ranlib-"
+      - "/opt/st/stm32cubeide_2.0.0/arm-none-eabi-gcc-ranlib-"
+      - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/snap/code/275/usr/share/code/bin/copilot-shim/arm-none-eabi-gcc-ranlib-"
+    found: "/opt/arm-tools/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/shambhu/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/arm-tools/bin"
+        - "/opt/st/stm32cubeide_2.0.0"
+        - "/home/shambhu/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/snap/code/275/usr/share/code/bin/copilot-shim"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/CMakeFiles/CMakeScratch/TryCompile-AXJzoA"
+      binary: "/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/CMakeFiles/CMakeScratch/TryCompile-AXJzoA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/CMakeFiles/CMakeScratch/TryCompile-AXJzoA'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_9f8e8
+        [1/2] /opt/arm-tools/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/arm-tools/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/'
+         /opt/arm-tools/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -iprefix /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-tools/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f8e8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cccEeJ3u.s
+        GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"
+        ignoring nonexistent directory "/opt/arm-tools/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"
+        ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/opt/arm-tools/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include
+         /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed
+         /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: b188e82d73c14327741f71b398212fe0
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/'
+         /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj /tmp/cccEeJ3u.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
+        COMPILER_PATH=/opt/arm-tools/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-tools/bin/../libexec/gcc/:/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-tools/bin/../lib/gcc/:/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-tools/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cmake -E rm -f libcmTC_9f8e8.a && /opt/arm-tools/bin/arm-none-eabi-ar qc libcmTC_9f8e8.a  CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj && /opt/arm-tools/bin/arm-none-eabi-ranlib libcmTC_9f8e8.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+          add: [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+          add: [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include] ==> [/opt/arm-tools/lib/gcc/arm-none-eabi/15.2.1/include]
+        collapse include dir [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed] ==> [/opt/arm-tools/lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        collapse include dir [/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include] ==> [/opt/arm-tools/arm-none-eabi/include]
+        implicit include dirs: [/opt/arm-tools/lib/gcc/arm-none-eabi/15.2.1/include;/opt/arm-tools/lib/gcc/arm-none-eabi/15.2.1/include-fixed;/opt/arm-tools/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/shambhu/embedded_system/stm32proj/cust_bootldr/build/release/CMakeFiles/CMakeScratch/TryCompile-AXJzoA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_9f8e8]
+        ignore line: [[1/2] /opt/arm-tools/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/arm-tools/bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/']
+        ignore line: [ /opt/arm-tools/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -iprefix /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /opt/arm-tools/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9f8e8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cccEeJ3u.s]
+        ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/opt/arm-tools/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/opt/arm-tools/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring duplicate directory "/opt/arm-tools/bin/../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include]
+        ignore line: [ /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/include-fixed]
+        ignore line: [ /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b188e82d73c14327741f71b398212fe0]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/']
+        ignore line: [ /opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj /tmp/cccEeJ3u.s]
+        ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
+        ignore line: [COMPILER_PATH=/opt/arm-tools/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/opt/arm-tools/bin/../libexec/gcc/:/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/:/opt/arm-tools/bin/../lib/gcc/:/opt/arm-tools/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/opt/arm-tools/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cmake -E rm -f libcmTC_9f8e8.a && /opt/arm-tools/bin/arm-none-eabi-ar qc libcmTC_9f8e8.a  CMakeFiles/cmTC_9f8e8.dir/CMakeCCompilerABI.c.obj && /opt/arm-tools/bin/arm-none-eabi-ranlib libcmTC_9f8e8.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

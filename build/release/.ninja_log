@@ -1,0 +1,9 @@
+# ninja log v7
+7	21	1793718972667975199	firmware/CMakeFiles/blink.elf.dir/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s.obj	c4126545bbd15b09
+6	43	1793718972665975202	firmware/bsp/CMakeFiles/bsp.dir/stm32disc1.c.obj	571b8e8da82cc1e4
+44	78	1793718972703975157	firmware/bsp/libbsp.a	73bf5a55ba80cdfe
+5	94	1793718972664975203	firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/sysmem.c.obj	5341247895b24e
+3	132	1793718972662975205	firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/system_stm32f4xx.c.obj	57611d8dfcfb6434
+4	137	1793718972663975204	firmware/vendor/CMakeFiles/vendor.dir/platform/stm32f4xx/src/syscalls.c.obj	3c3b486c43caad71
+138	171	1793718972797975047	firmware/vendor/libvendor.a	fc62e5ec0b5310db
+171	203	1793718972830975009	firmware/blink.elf	9878b64de03e6a4b

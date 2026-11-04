@@ -1,0 +1,9 @@
+// TODO Lists
+
+// 1. write proper CMakeLists, preset and .cmake files for project management containing nested files and directories.
+// 2. add gihub build and static analysis automation.
+// 3. gdb and openOCD debugging.
+// 4. write startup file.
+// 5. write linker script.
+// 6. write test case file.
+
