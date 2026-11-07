@@ -10,6 +10,7 @@ add_custom_command(TARGET ${TARGET_NAME}.elf POST_BUILD
 add_custom_command(TARGET ${TARGET_NAME}.elf POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${TARGET_NAME}.elf> ${TARGET_NAME}.bin
     COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${TARGET_NAME}.elf> ${TARGET_NAME}.hex
+    COMMAND ${CMAKE_OBJDUMP} -D $<TARGET_FILE:${TARGET_NAME}.elf> > ${TARGET_NAME}.lst
 )
     
 endfunction()
