@@ -156,7 +156,3 @@ void SystemClock_Config(void)
 }
 
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
