@@ -2,7 +2,7 @@
 
 
 #define GPIO_PIN_13         13U
-#define GLED_PIN            GPIO_PIN_13
+#define OLED_PIN            GPIO_PIN_13
 #define LED_GPIO_PORT       GPIOD
 
 
@@ -48,35 +48,71 @@ int main(void)
 {
     SystemClock_Config();
 
+    //enable gpiod clk
+    RCC->AHB1ENR |= (1U<<3);
+
+    //this reduces pwr consumption of schmitt trigger
+    LED_GPIO_PORT->MODER |= 0xffffffffU;               //make all pins analog mode
+    
+    LED_GPIO_PORT->MODER &= (~(3U<<(OLED_PIN * 2)));   //reset pin 13 dir mode state (input)
+    LED_GPIO_PORT->MODER |= (1U<<(OLED_PIN * 2));      //output dir mode
+
+    //default push-pull output mode
+    //default low speed
+    //default pupd off
+
+
     uint8_t ret = app_image_verify();
-    switch(ret)
+
+    if(ret != 0)
     {
-        case 0:
-            break;
-        case 1:
-            // invalid stack pointer
-            for(;;);
-        case 2:
-            // invalid reset handler
-            for(;;);
-        case 3:
-            // invalid magic number
-            for(;;);
-        case 4:
-            // invalid size
-            for(;;);
-        case 5:
-            // invalid crc
-            for(;;);
-        case 6:
-            // invalid ota flag
-            for(;;);
-        case 7:
-            // invalid version
-            for(;;);
-        default:
-            for(;;);
+        // application image is invalid, stay in bootloader
+        for(;;)
+        {
+            LED_GPIO_PORT->ODR ^= (1U<<OLED_PIN);
+            wait();
+        }
     }
+    
+    // switch(ret)
+    // {
+    //     case 0:
+    //     {
+    //         break;  // valid application image
+    //     }
+    //     case 1:
+    //     {
+    //         break;  // invalid stack pointer
+    //     }
+    //     case 2:
+    //     {
+    //         break;  // invalid reset handler
+    //     }
+    //     case 3:
+    //     {
+    //         break;  // invalid magic number
+    //     }
+    //     case 4:
+    //     {
+    //         break;  // invalid size
+    //     }
+    //     case 5:
+    //     {
+    //         break;  // invalid crc
+    //     }
+    //     case 6:
+    //     {
+    //         break;  // invalid ota flag
+    //     }
+    //     case 7:
+    //     {
+    //         break;  // invalid version
+    //     }
+    //     default:
+    //     {
+    //         break;
+    //     }
+    // }
 
     // relocate vector table
     SCB->VTOR = APP_IMAGE_BASE_ADDR;
@@ -94,24 +130,10 @@ int main(void)
     reset_handler();    // jump to application reset handler
 
 
-    //enable gpiod clk
-    RCC->AHB1ENR |= (1U<<3);
-
-    //this reduces pwr consumption of schmitt trigger
-    LED_GPIO_PORT->MODER |= 0xffffffffU;               //make all pins analog mode
     
-    LED_GPIO_PORT->MODER &= (~(3U<<(GLED_PIN * 2)));   //reset pin 13 dir mode state (input)
-    LED_GPIO_PORT->MODER |= (1U<<(GLED_PIN * 2));      //output dir mode
-
-    //default push-pull output mode
-    //default low speed
-    //default pupd off
-
     for(;;)
     {
-        //toggle green led pin output
-        LED_GPIO_PORT->ODR ^= (1U<<GLED_PIN);
-        wait();
+        
     }
 
     return 0;
