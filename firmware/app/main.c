@@ -1,8 +1,8 @@
 #include "platform.h"
 
 
-#define GPIO_PIN_12         12U
-#define GLED_PIN            GPIO_PIN_12
+#define GPIO_PIN_13         13U
+#define GLED_PIN            GPIO_PIN_13
 #define LED_GPIO_PORT       GPIOD
 
 
@@ -100,7 +100,7 @@ int main(void)
     //this reduces pwr consumption of schmitt trigger
     LED_GPIO_PORT->MODER |= 0xffffffffU;               //make all pins analog mode
     
-    LED_GPIO_PORT->MODER &= (~(3U<<(GLED_PIN * 2)));   //reset pin 12 dir mode state (input)
+    LED_GPIO_PORT->MODER &= (~(3U<<(GLED_PIN * 2)));   //reset pin 13 dir mode state (input)
     LED_GPIO_PORT->MODER |= (1U<<(GLED_PIN * 2));      //output dir mode
 
     //default push-pull output mode
