@@ -101,7 +101,7 @@
 #define VECT_TAB_BASE_ADDRESS   SRAM_BASE       /*!< Vector Table base address field.
                                                      This value must be a multiple of 0x200. */
 #else
-#define VECT_TAB_BASE_ADDRESS   FLASH_BASE + 0x800UL       /*!< Vector Table base address field.
+#define VECT_TAB_BASE_ADDRESS   (FLASH_BASE + 0x800UL)       /*!< Vector Table base address field.
                                                      This value must be a multiple of 0x200. */
 #endif /* VECT_TAB_SRAM */
 #if !defined(VECT_TAB_OFFSET)
