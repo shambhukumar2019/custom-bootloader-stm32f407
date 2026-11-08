@@ -42,8 +42,6 @@ defined in linker script */
 /* end address for the .bss section. defined in linker script */
 .word _ebss
 
-.equ NVIC_VTOR, 0xE000ED08
-.equ APP_BASE, 0x08004000			# sector 2, 16KB
 
 /**
  * @brief  This is the code that gets called when the processor first
@@ -99,18 +97,8 @@ LoopFillZerobss:
 //   bl __libc_init_array
 /* Call the application's entry point.*/
 
-//   bl main
-	ldr r0, =NVIC_VTOR
-	ldr r1, =APP_BASE
-	str r1, [r0]
-	dsb
-	isb
-
-	ldr sp, [r1]
-
-	add r1, r1, #4
-	ldr r2, [r1]
-	bx r2
+  bl main
+	
 
 LoopForever:
   b LoopForever

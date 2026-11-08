@@ -6,7 +6,7 @@ add_subdirectory(bsp)
 add_subdirectory(app)
 
 add_executable(${CMAKE_PROJECT_NAME}.elf 
-    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/platform/stm32f4xx/startup_stm32f407vgtx.s
+    ${CMAKE_CURRENT_SOURCE_DIR}/app/main.c
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME}.elf PUBLIC
