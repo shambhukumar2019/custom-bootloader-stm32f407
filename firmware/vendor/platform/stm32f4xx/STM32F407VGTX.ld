@@ -47,7 +47,8 @@ MEMORY
 {
   CCMRAM    (xrw)    : ORIGIN = 0x10000000,   LENGTH = 64K
   RAM    (xrw)    : ORIGIN = 0x20000800,   LENGTH = 64K
-  FLASH    (rx)    : ORIGIN = 0x08004000,   LENGTH = 16K
+  APP_HEADER (rx)    : ORIGIN = 0x08004000,   LENGTH = 16K
+  FLASH    (rx)    : ORIGIN = 0x08008000,   LENGTH = 16K
 }
 
 /* Sections */
@@ -78,6 +79,13 @@ SECTIONS
     . = ALIGN(4);
     _etext = .;        /* define a global symbols at end of code */
   } >FLASH
+
+  .app_header :
+  {
+    . = ALIGN(4);
+    KEEP(*(.app_header)) /* Application header */
+    . = ALIGN(4);
+  } >APP_HEADER
 
   /* Constant data into "FLASH" Rom type memory */
   .rodata :
@@ -185,6 +193,8 @@ SECTIONS
     _ebss = .;         /* define a global symbol at bss end */
     __bss_end__ = _ebss;
   } >RAM
+
+
 
   /* User_heap_stack section, used to check that there is enough "RAM" Ram  type memory left */
   ._user_heap_stack :

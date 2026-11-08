@@ -12,21 +12,36 @@ void SystemClock_Config(void);
 
 typedef struct
 {
+    uint32_t ota_flag;
     uint32_t magic_num;
     uint32_t crc;
     uint32_t size;
+    uint32_t version;
 }app_image_header_t;
+
+
+// put application header in sector 1 of flash
+__attribute__((section(".app_header"))) const app_image_header_t app_header = 
+{
+    .ota_flag = 0x00000000,
+    .magic_num = 0xDEADBEEF,
+    .crc = 0xFFFFFFFF,
+    .size = 0xFFFFFFFF,
+    .version = 0x00000001
+};
 
 
 
 #define userConfigASSERT(reg, mask, val)\
-        { do{\
-            if((reg & mask) != val)\
-            {\
-                __disable_irq();\
-                for(;;);\
-            }\
-        }while(0); }
+        { \
+            do{\
+                if((reg & mask) != val)\
+                {\
+                    __disable_irq();\
+                    for(;;);\
+                }\
+            }while(0); \
+        }
 
 
 
@@ -41,33 +56,12 @@ void wait(void)
         for(i = 0;i < 65535U; ++i);
     }
 }
-
-#define APP_IMAGE_BASE_ADDR 0x08004000UL
     
 
 
 int main(void)
 {
     SystemClock_Config();
-
-    // verify magic number, crc, size, sp and reset handler of application image
-    app_image_header_t *app_header = (app_image_header_t *)APP_IMAGE_BASE_ADDR;
-
-    volatile uint32_t app_sp = *((volatile uint32_t *)APP_IMAGE_BASE_ADDR);
-    if((app_sp & 0xf00fffffUL) !=  0x20010800UL)
-    {
-        return 1;
-    }
-    
-    volatile uint32_t app_reset_handler = (volatile uint32_t *)(APP_IMAGE_BASE_ADDR + 4UL);
-    if((app_reset_handler & 0xff00ffffUL) != 0x08004004UL)
-    {
-        return 1;
-    }
-    // relocate vector table
-    // flush instruction and data pipeline using dsb and isb
-    // change sp of application
-    // jump to reset handler of application
     
     //enable gpiod clk
     RCC->AHB1ENR |= (1U<<3);
